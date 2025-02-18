@@ -1,0 +1,17 @@
+/home/ares/steamdeck_ws/install/joystick/lib/joystick/get_joystick_value.py
+/home/ares/steamdeck_ws/install/joystick/lib/joystick/joystick_speed.py
+/home/ares/steamdeck_ws/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+/home/ares/steamdeck_ws/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+/home/ares/steamdeck_ws/install/joystick/share/joystick/environment/ament_prefix_path.sh
+/home/ares/steamdeck_ws/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+/home/ares/steamdeck_ws/install/joystick/share/joystick/environment/path.sh
+/home/ares/steamdeck_ws/install/joystick/share/joystick/environment/path.dsv
+/home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.bash
+/home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.sh
+/home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.zsh
+/home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.dsv
+/home/ares/steamdeck_ws/install/joystick/share/joystick/package.dsv
+/home/ares/steamdeck_ws/install/joystick/share/ament_index/resource_index/packages/joystick
+/home/ares/steamdeck_ws/install/joystick/share/joystick/cmake/joystickConfig.cmake
+/home/ares/steamdeck_ws/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+/home/ares/steamdeck_ws/install/joystick/share/joystick/package.xml

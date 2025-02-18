@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/ares/steamdeck_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ares/steamdeck_ws/build/joystick -- -j8 -l8
+[0.062s] Invoked command in '/home/ares/steamdeck_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ares/steamdeck_ws/build/joystick -- -j8 -l8
+[0.075s] Invoking command in '/home/ares/steamdeck_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ares/steamdeck_ws/build/joystick
+[0.083s] -- Install configuration: ""
+[0.083s] -- Execute custom install script
+[0.083s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/lib/joystick/get_joystick_value.py
+[0.084s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/lib/joystick/joystick_speed.py
+[0.084s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+[0.084s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+[0.084s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/environment/path.sh
+[0.084s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/environment/path.dsv
+[0.085s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.bash
+[0.085s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.sh
+[0.085s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.zsh
+[0.085s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/local_setup.dsv
+[0.085s] -- Symlinking: /home/ares/steamdeck_ws/install/joystick/share/joystick/package.dsv
+[0.097s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/ament_index/resource_index/packages/joystick
+[0.097s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/cmake/joystickConfig.cmake
+[0.097s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+[0.097s] -- Up-to-date symlink: /home/ares/steamdeck_ws/install/joystick/share/joystick/package.xml
+[0.100s] Invoked command in '/home/ares/steamdeck_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ares/steamdeck_ws/build/joystick

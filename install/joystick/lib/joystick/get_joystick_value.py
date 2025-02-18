@@ -1,0 +1,1 @@
+/home/ares/steamdeck_ws/src/joystick/scripts/get_joystick_value.py

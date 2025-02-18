@@ -1,0 +1,1 @@
+/home/ares/steamdeck_ws/build/joystick/ament_cmake_core/joystickConfig-version.cmake
