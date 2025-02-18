@@ -1,6 +1,0 @@
-Invoking command in '/home/ares/steamdeck_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ares/steamdeck_ws/src/joystick -DCMAKE_INSTALL_PREFIX=/home/ares/steamdeck_ws/install/joystick
-Invoked command in '/home/ares/steamdeck_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ares/steamdeck_ws/src/joystick -DCMAKE_INSTALL_PREFIX=/home/ares/steamdeck_ws/install/joystick
-Invoking command in '/home/ares/steamdeck_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ares/steamdeck_ws/build/joystick -- -j8 -l8
-Invoked command in '/home/ares/steamdeck_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ares/steamdeck_ws/build/joystick -- -j8 -l8
-Invoking command in '/home/ares/steamdeck_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ares/steamdeck_ws/build/joystick
-Invoked command in '/home/ares/steamdeck_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ares/steamdeck_ws/build/joystick

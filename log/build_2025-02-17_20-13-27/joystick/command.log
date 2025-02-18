@@ -1,2 +1,0 @@
-Invoking command in '/home/ares/steamdeck_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ares/steamdeck_ws/build/joystick -- -j8 -l8
-Invoked command in '/home/ares/steamdeck_ws/build/joystick' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ares/steamdeck_ws/build/joystick -- -j8 -l8
