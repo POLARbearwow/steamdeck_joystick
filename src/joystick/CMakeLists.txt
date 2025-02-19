@@ -8,15 +8,52 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 # find_package(ament_python REQUIRED)
+find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+# find_package(serial REQUIRED)
+
+# Manually find serial library and include directory
+find_library(SERIAL_LIB NAMES serial PATHS /opt/serial/lib)
+find_path(SERIAL_INCLUDE_DIR PATHS /opt/serial/include)
+message( ${SERIAL_LIB})
+# Ensure the serial library and include directory were found
+# if(NOT SERIAL_LIB)
+#   message(FATAL_ERROR "serial library not found")
+# endif()
+# if(NOT SERIAL_INCLUDE_DIR)
+#   message(FATAL_ERROR "serial include directory not found")
+# endif()
+
+# # Include the serial directory
+include_directories(/opt/serial/include)
+
+
+# include_directories(${SERIAL_INCLUDE_DIR})
+
 
 # 添加消息生成和其他相关设置
 
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+
+add_executable(joystick_serial src/joystick_serial.cpp)
+
+ament_target_dependencies(joystick_serial
+  rclcpp
+  sensor_msgs
+  # serial
+  geometry_msgs
+)
+
+target_link_libraries(joystick_serial ${SERIAL_LIB})
+
+install(TARGETS
+  joystick_serial
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 install(PROGRAMS
   scripts/get_joystick_value.py

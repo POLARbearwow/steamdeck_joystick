@@ -15,7 +15,7 @@ class JoystickNode(Node):
         pygame.init()
         pygame.joystick.init()
 
-        # Assuming that you have only one joystick connected
+        #  all the input through /dev/input/js0
         joystick = pygame.joystick.Joystick(0)
         joystick.init()
 
