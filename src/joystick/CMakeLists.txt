@@ -21,6 +21,7 @@ find_package(geometry_msgs REQUIRED)
 install(PROGRAMS
   scripts/get_joystick_value.py
   scripts/joystick_speed.py
+  scripts/joystick_with_deadzone.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
